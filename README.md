@@ -1,4 +1,13 @@
-# ePOW, Eclipse $BITZ Setup Guide on Ubuntu 💚
+# Eclipse co-Founder 介绍BITZ：https://x.com/Alucard_eth/status/1910934171520033173
+# What is $BITZ?
+
+- It is the first ePOW commodity token that anyone can mine on Eclipse
+- 5m max supply
+- Not related to $ES
+- NOT pre-mined + ZERO team/insider allocations
+- You can mine it using Solana CLI or wait for the web app miner UI
+
+# ePOW, Eclipse $BITZ Setup Guide on Ubuntu or Mac-OS 💚
 
 
 1. Install Rust
