@@ -54,26 +54,38 @@ This will create a new keypair at the default path:
 
 7. Start eMining
 ```bitz collect```
+You need 0.005 $ETH on Eclipse to start mining, send it to your public key
 
 
 🔹 Other Commands
 
   •	Claim your Bitz:
 ```bash
-  bitz claim
+bitz claim
 ```
   
-  •	Check your balance: ```bitz account```
+  •	Check your balance:
+```bash
+bitz account
+```
   
-  •	View all commands: ```bitz -h```
-
+  •	View all commands:
+```bash
+bitz -h
+```
 
   Import to backpack:
   
-  type ```solana config get```
+  type
+```bash
+solana config get
+```
   
   copy path of Keypair path
   
-  type ```cat <Keypair path>```
+  type
+```bash
+cat <Keypair path>
+```
   
   import copy array of number and import them on backpack in private key
