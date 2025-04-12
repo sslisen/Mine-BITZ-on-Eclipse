@@ -1,6 +1,6 @@
 # ePOW
 
-** Eclipse Bitz Setup Guide on Ubuntu 💚**
+Eclipse Bitz Setup Guide on Ubuntu 💚
 
 
 ## 🚀 Setup Steps
@@ -23,16 +23,17 @@ solana-keygen new
 ```
 Set Passphrase for better security or just skip (click enter)
 <br><br>
+<br><br>
 This will create a new keypair at the default path:
 ```bash
 ~/.config/solana/id.json
 ```
-<br><br>
 To generate a keypair at a custom path:
 ```bash
 solana-keygen new -o /path/to/keypair.json
 ```
 ⚠️ Save your public key & mnemonic — it will be shown after creation.
+<br><br>
 <br><br>
 5. Install Bitz CLI
 ```bash
@@ -47,36 +48,29 @@ solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 screen -s eclipse
 ```
 8. Start eMining
-```bitz collect```
+```bash
+bitz collect
+```
 You need 0.005 $ETH on Eclipse to start mining, send it to your public key
 <br><br>
-🔹 Other Commands
+Other Commands
 
   •	Claim your Bitz:
-```bash
-bitz claim
-```
+```bitz claim```
   
   •	Check your balance:
-```bash
-bitz account
-```
+```bitz account```
   
   •	View all commands:
-```bash
-bitz -h
-```
+```bitz -h```
 <br><br>
 Import to backpack:
 ```bash
 solana config get
 ```
 <br><br>  
-copy path of Keypair path
-<br><br>  
-  type
+copy path of Keypair path 
 ```bash
 cat <Keypair path>
 ```
-<br><br>
 Import copy array of number and import them on backpack in private key
