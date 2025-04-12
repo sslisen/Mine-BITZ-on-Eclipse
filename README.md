@@ -61,4 +61,4 @@ copy path of Keypair path
 ```bash
 cat <Keypair path>
 ```
-Import copy array of number and import them on backpack in private key
+Copy array of number and import them on backpack in private key section
