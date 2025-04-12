@@ -58,7 +58,10 @@ This will create a new keypair at the default path:
 
 🔹 Other Commands
 
- 	•	Claim your Bitz: ```bitz claim```
+  •	Claim your Bitz:
+```bash
+  bitz claim
+```
   
   •	Check your balance: ```bitz account```
   
