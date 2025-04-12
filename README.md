@@ -22,17 +22,8 @@ curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev 
 solana-keygen new
 ```
 Set Passphrase for better security or just skip (click enter)
-<br><br>
-<br><br>
-This will create a new keypair at the default path:
-```bash
-~/.config/solana/id.json
-```
-To generate a keypair at a custom path:
-```bash
-solana-keygen new -o /path/to/keypair.json
-```
-⚠️ Save your public key & mnemonic — it will be shown after creation.
+This will create a new keypair at the default path: ```~/.config/solana/id.json```
+Save your public key & mnemonic — it will be shown after creation.
 <br><br>
 <br><br>
 5. Install Bitz CLI
@@ -68,7 +59,6 @@ Import to backpack:
 ```bash
 solana config get
 ```
-<br><br>  
 copy path of Keypair path 
 ```bash
 cat <Keypair path>
