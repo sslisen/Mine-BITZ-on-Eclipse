@@ -1,9 +1,7 @@
-# ePOW
-
-Eclipse Bitz Setup Guide on Ubuntu 💚
+# ePOW, Eclipse Bitz Setup Guide on Ubuntu 💚
 
 
-## 🚀 Setup Steps
+**🚀 Setup Steps**
 
 1. Install Rust
 ```bash 
@@ -46,7 +44,7 @@ bitz collect
 ```
 You need 0.005 $ETH on Eclipse to start mining, send it to your public key
 <br><br>
-Other Commands
+Other Commands:
 
   •	Claim your Bitz:
 ```bitz claim```
