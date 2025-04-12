@@ -9,22 +9,18 @@
 ```bash 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-<br><br>
-Follow the prompts. Once installed, run:
+2. Follow the prompts. Once installed, run:
 ```bash
 source $HOME/.cargo/env
 ```
-<br><br>
-2. Install Solana CLI
+3. Install Solana CLI
 ```bash 
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 ```
-<br><br>
 4. Create a Wallet (Keypair)
 ```bash
 solana-keygen new
 ```
-<br><br>
 Set Passphrase for better security or just skip (click enter)
 <br><br>
 This will create a new keypair at the default path:
@@ -32,28 +28,24 @@ This will create a new keypair at the default path:
 ~/.config/solana/id.json
 ```
 <br><br>
-👉 To generate a keypair at a custom path:
+To generate a keypair at a custom path:
 ```bash
 solana-keygen new -o /path/to/keypair.json
 ```
-<br><br>
 ⚠️ Save your public key & mnemonic — it will be shown after creation.
 <br><br>
-4. Install Bitz CLI
+5. Install Bitz CLI
 ```bash
 cargo install bitz
 ```
-<br><br>
-5. Change RPC
+6. Change RPC
 ```bash
 solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 ```
-<br><br>
-6. Open Screen
+7. Open Screen
 ```bash
 screen -s eclipse
 ```
-<br><br>
 8. Start eMining
 ```bitz collect```
 You need 0.005 $ETH on Eclipse to start mining, send it to your public key
