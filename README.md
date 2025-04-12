@@ -49,6 +49,9 @@ Other Commands:
   
   •	Check your balance:
 ```bitz account```
+
+  • Config CPU (change the number to change cores):
+```bitz collect --cores 8```
   
   •	View all commands:
 ```bitz -h```
