@@ -34,7 +34,7 @@ solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 ```
 7. Open Screen
 ```bash
-screen -s eclipse
+screen -S eclipse
 ```
 8. Start eMining
 ```bash
