@@ -40,7 +40,7 @@ screen -S eclipse
 ```bash
 bitz collect
 ```
-You need 0.005 $ETH on Eclipse to start mining, send it to your public key
+You need 0.005 $ETH on Eclipse to start mining, so send $ETH to your public key
 <br><br>
 Other Commands:
 
