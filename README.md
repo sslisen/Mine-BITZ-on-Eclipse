@@ -22,7 +22,9 @@ curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev 
 solana-keygen new
 ```
 Set Passphrase for better security or just skip (click enter)
+
 This will create a new keypair at the default path: ```~/.config/solana/id.json```
+
 Save your public key & mnemonic — it will be shown after creation.
 <br><br>
 <br><br>
