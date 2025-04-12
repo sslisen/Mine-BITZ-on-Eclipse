@@ -1,4 +1,4 @@
-# Eclipse co-Founder Alucard介绍BITZ：https://x.com/Alucard_eth/status/1910934171520033173
+# Eclipse Community Lead Alucard介绍BITZ：https://x.com/Alucard_eth/status/1910934171520033173
 # What is $BITZ?
 
 - It is the first ePOW commodity token that anyone can mine on Eclipse
