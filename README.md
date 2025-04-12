@@ -1,7 +1,5 @@
-# ePOW, Eclipse Bitz Setup Guide on Ubuntu 💚
+# ePOW setup, Eclipse Bitz Setup Guide on Ubuntu 💚
 
-
-**🚀 Setup Steps**
 
 1. Install Rust
 ```bash 
