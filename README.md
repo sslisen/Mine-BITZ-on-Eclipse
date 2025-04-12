@@ -6,53 +6,65 @@
 ## 🚀 Setup Steps
 
 1. Install Rust
-2. 
-```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+```bash 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
 
 ℹ️ Follow the prompts. Once installed, run:
-
-```source $HOME/.cargo/env```
+```bash
+source $HOME/.cargo/env
+```
 
 
 2. Install Solana CLI
-3. 
-```curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash```
+```bash 
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+```
 
 
 4. Create a Wallet (Keypair)
-5. 
-```solana-keygen new```
+```bash
+solana-keygen new
+```
 
 set Passphrase for better security or just skip (click enter)
 
 
 This will create a new keypair at the default path:
-
-```~/.config/solana/id.json```
+```bash
+~/.config/solana/id.json
+```
 
 
 👉 To generate a keypair at a custom path:
-
-```solana-keygen new -o /path/to/keypair.json```
+```bash
+solana-keygen new -o /path/to/keypair.json
+```
 
 
 ⚠️ Save your public key & mnemonic — it will be shown after creation.
 
 
 4. Install Bitz CLI
-```cargo install bitz```
+```bash
+cargo install bitz
+```
 
 
 5. Change RPC
-```solana config set --url https://mainnetbeta-rpc.eclipse.xyz/```
+```bash
+solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
+```
 
 
 6. Open Screen
-```screen -s eclipse```
+```bash
+screen -s eclipse
+```
 
 
-7. Start eMining
+8. Start eMining
 ```bitz collect```
 You need 0.005 $ETH on Eclipse to start mining, send it to your public key
 
